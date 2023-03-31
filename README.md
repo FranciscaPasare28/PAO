@@ -17,6 +17,7 @@ Pe langa clasele de baza proramul mai cuprinde si clasele:
 <li><b>clasa Service: </b>clasa ce cuprinde toate functiile necesare pentru realizarea comenzilor din meniu</li>
 </br>
 
+![diagrama](diagrama.jpg)
 
 ### *Meniul interactiv al aplicatiei:*
 ```[python]
