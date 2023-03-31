@@ -10,7 +10,7 @@
 <li><b>clasa StudyProgram: </b>clasa ce ofera informatii legate de programul de studiu</li>
 <li><b>clasa Subject: </b>clasa pentru reprezentarea materiilor studiate de un student</li>
 <li><b>clasa University: </b>clasa ce cuprinde informatii despre universitatea la care studiaza un student</li>
-
+<br/>
 Pe langa clasele de baza proramul mai cuprinde si clasele:
 <li><b>clasa Main: </b>clasa ce instantiaza un meniu si ruleaza programul principal al aplicatiei</li>
 <li><b>clasa Menu: </b>clasa ce implementeaza un meniu interactiv cu design pattern de tip singleton</li>
