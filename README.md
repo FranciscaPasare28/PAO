@@ -47,6 +47,7 @@ Tabela Student poate fi modificata folosind toate cele 4 operatii CRUD: create, 
 
 <h2>Serviciu de audit</h2>
 Pentru inregistrarea tuturor actiunilor facute intr-o rulare a programului am implementant o clasa de tip singleton ce scrie toate operatiunile desfasurate intr-un fisier de tip CSV cu formatul nume_actiune, timestamp. Un exemplu de astfel de fisier:
+
 ```[python]
 -----------------------------------
 configure tables,2023-05-26 16:36:08
