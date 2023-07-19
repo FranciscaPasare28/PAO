@@ -45,6 +45,14 @@ Configurarea unei baze de date cu JDBC si MySQL cu tabele corespunzatoare clasel
 
 Tabela Student poate fi modificata folosind toate cele 4 operatii CRUD: create, read, update si delete. Toate operatiile din meniu au fost modificate pentru a persista datele atat in fisierele CSV, cat si in tabelele bazei de date. In meniu au fost adaugate urmatoarele functionalitati:
 
+```[python]
+-----------------------------------
+12: Print student by a given id
+13: Update student name by a given id
+14: Delete student by a given id
+-----------------------------------
+```
+
 <h2>Serviciu de audit</h2>
 Pentru inregistrarea tuturor actiunilor facute intr-o rulare a programului am implementant o clasa de tip singleton ce scrie toate operatiunile desfasurate intr-un fisier de tip CSV cu formatul nume_actiune, timestamp. Un exemplu de astfel de fisier:
 
