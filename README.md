@@ -40,3 +40,20 @@ Pe langa clasele de baza proramul mai cuprinde si clasele:
 Exit
 -----------------------------------
 ```
+<h2>Etapa 2</h2>
+Configurarea unei baze de date cu JDBC si MySQL cu tabele corespunzatoare claselor StudyProgram, Group, University, Subject si Student. Pentru introducerea si modificarea datelor din tabele au fost create 5 clase de tip repository si singleton ce se conecteaza la baza de date.
+
+Tabela Student poate fi modificata folosind toate cele 4 operatii CRUD: create, read, update si delete. Toate operatiile din meniu au fost modificate pentru a persista datele atat in fisierele CSV, cat si in tabelele bazei de date. In meniu au fost adaugate urmatoarele functionalitati:
+
+<h2>Serviciu de audit</h2>
+Pentru inregistrarea tuturor actiunilor facute intr-o rulare a programului am implementant o clasa de tip singleton ce scrie toate operatiunile desfasurate intr-un fisier de tip CSV cu formatul nume_actiune, timestamp. Un exemplu de astfel de fisier:
+```[python]
+-----------------------------------
+configure tables,2023-05-26 16:36:08
+load data,2023-05-26 16:36:08
+add subject,2023-05-26 16:36:17
+print subjects,2023-05-26 16:36:25
+print domains,2023-05-26 16:36:28
+close connection with database,2023-05-26 16:36:37
+-----------------------------------
+```
